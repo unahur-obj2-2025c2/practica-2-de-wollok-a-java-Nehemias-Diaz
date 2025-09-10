@@ -25,4 +25,16 @@ public class Sensor {
         }
         return eficiencia;
     }
+
+    public Integer getCapacidad() {
+        return this.capacidad;
+    }
+
+    public Integer getDurabilidad() {
+        return this.durabilidad;
+    }
+
+    public Boolean tieneMejorasTecnologicas() {
+        return this.tieneMejorasTecnologicas;
+    }
 }

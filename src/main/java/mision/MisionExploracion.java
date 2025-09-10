@@ -13,5 +13,4 @@ public class MisionExploracion implements Mision {
     public Boolean esAvanzadoEnMision(Dron dron) {
         return dron.eficienciaOperativa() % 2 == 0;
     }
-    
 }

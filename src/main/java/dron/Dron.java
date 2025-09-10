@@ -40,4 +40,8 @@ public abstract class Dron {
     public Mision getTipoDeMision() {
         return tipoDeMision;
     }
+
+    public void disminuirAutonomia(Integer valor) {
+        this.autonomia -= valor;
+    }
 }
